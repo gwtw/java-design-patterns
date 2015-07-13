@@ -1,0 +1,21 @@
+#!/bin/bash
+
+rm -Rf bin
+./make
+
+CLASSPATH=""
+if [ $OSTYPE == "msys" ]; then
+  CLASSPATH="bin/;lib/junit-4.11.jar;lib/hamcrest-core-1.3.jar"
+else
+  CLASSPATH="bin/:lib/junit-4.11.jar:lib/hamcrest-core-1.3.jar"
+fi
+
+java -cp $CLASSPATH org.junit.runner.JUnitCore \
+  com.growingwiththeweb.designpatterns.decorator.DecoratorTest \
+  com.growingwiththeweb.designpatterns.delegation.DelegationTest \
+  com.growingwiththeweb.designpatterns.facade.FacadeTest \
+  com.growingwiththeweb.designpatterns.factorymethod.FactoryMethodTest \
+  com.growingwiththeweb.designpatterns.flyweight.FlyweightTest \
+  com.growingwiththeweb.designpatterns.singleton.LazyLoadingSingletonTest \
+  com.growingwiththeweb.designpatterns.singleton.SingletonTest \
+  com.growingwiththeweb.designpatterns.singleton.VisitorTest
