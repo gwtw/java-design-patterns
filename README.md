@@ -1,6 +1,6 @@
 [![Growing with the Web](http://www.growingwiththeweb.com/images/site/logo.png)][1]
 
-[![Build Status](https://travis-ci.org/GrowingWithTheWeb/java-design-patterns.svg)](http://travis-ci.org/GrowingWithTheWeb/java-design-patterns)
+[![Build Status](http://img.shields.io/travis/GrowingWithTheWeb/java-design-patterns.svg?style=flat)](http://travis-ci.org/GrowingWithTheWeb/java-design-patterns)
 
 A collection of design patterns examples written in Java for [Growing with the Web][1].
 
