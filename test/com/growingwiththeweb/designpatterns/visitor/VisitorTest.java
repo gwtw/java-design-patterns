@@ -21,7 +21,6 @@ public class VisitorTest {
         assertEquals("ConcreteVisitor1", element.getLastVisitedBy());
         element.accept(new ConcreteVisitor2());
         assertEquals("ConcreteVisitor2", element.getLastVisitedBy());
-        assertNull(element.getLastVisitedBy());
     }
 
     @Test
@@ -31,6 +30,5 @@ public class VisitorTest {
         assertEquals("ConcreteVisitor1", element.getLastVisitedBy());
         element.accept(new ConcreteVisitor2());
         assertEquals("ConcreteVisitor2", element.getLastVisitedBy());
-        assertNull(element.getLastVisitedBy());
     }
 }
