@@ -1,4 +1,4 @@
-[![Growing with the Web](http://www.growingwiththeweb.com/images/site/logo.png)][1]
+# java-design-patterns
 
 [![Build Status](http://img.shields.io/travis/GrowingWithTheWeb/java-design-patterns.svg?style=flat)](http://travis-ci.org/GrowingWithTheWeb/java-design-patterns)
 
