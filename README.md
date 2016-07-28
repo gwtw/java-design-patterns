@@ -1,6 +1,6 @@
 # java-design-patterns
 
-[![Build Status](http://img.shields.io/travis/gwtw/java-design-patterns.svg?style=flat)](http://travis-ci.org/gwtw/java-design-patterns)
+[![Build Status](https://travis-ci.org/gwtw/java-design-patterns.svg?branch=master)](https://travis-ci.org/gwtw/java-design-patterns)
 
 A collection of design patterns examples written in Java for [Growing with the Web][1].
 
